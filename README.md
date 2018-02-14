@@ -1,2 +1,2 @@
 # dotfiles
-my dot files
+Configuration files for git, vim, zsh and tmux.
