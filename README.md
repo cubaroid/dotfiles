@@ -32,4 +32,10 @@ Configuration files for git, vim, zsh and tmux.
     *	add skype repo
     *	update and install
 
+*	Install Node js
+	*	apt install nodejs
+
+*	Install npm
+	*	apt install npm
+
 
