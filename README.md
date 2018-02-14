@@ -8,7 +8,7 @@ Configuration files for git, vim, zsh and tmux.
 *	 Installed git.
 	*	apt-get install git-core
 
-*	Add mouse.desktop file to ~/.config.autostart/ folder
+*	Add mouse.desktop file to ~/.config/autostart/ folder
 	*	This sets the mouse sensitivity.
 
 *	Installed tmux [Link]( http://bogdanvlviv.com/posts/tmux/how-to-install-the-latest-tmux-on-ubuntu-16_04.html )
