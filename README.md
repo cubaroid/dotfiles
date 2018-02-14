@@ -23,6 +23,7 @@ Configuration files for git, vim, zsh and tmux.
 
 *	Install keepass2
 	*	apt install -y keepass2
+	*	install xdotool to simulate keyboard input events ( required ) apt install -y xdotool
 
 *	Install skype and dependencies. [Link]( https://askubuntu.com/questions/887389/how-to-install-skype-for-linux-in-ubuntu-16-04-via-console-only/887397 )
     *	install apt-transport-https
