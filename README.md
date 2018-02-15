@@ -40,6 +40,11 @@ Configuration files for git, vim, zsh and tmux.
 
 *	Install VirtualBox
 	*	apt install virtualbox
+	*	Virtualbox Configuration:
+		*	Add some video memory Settings > Display > Screen > Video Memory ( set to 128 )
+		*	Add an optical drive -> Settings > Storage Controller:IDE -> click on the cd icon and add a drive
+		*   Set up Copying settings. Settings > General > Advanced: Shared Clipboard and Drag'n'drop both set to Bidirectional.
+		*	Start Vm. Go to Devices > Insert Guest Additionas CD. Install. Reboot.
 
 *	Install exfat utils
 	*	apt install exfat-utils exfat-fuse
