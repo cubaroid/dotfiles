@@ -38,4 +38,11 @@ Configuration files for git, vim, zsh and tmux.
 *	Install npm
 	*	apt install npm
 
+*	Install VirtualBox
+	*	apt install virtualbox
 
+*	Install exfat utils
+	*	apt install exfat-utils exfat-fuse
+
+*	Install dconf-tools *Optional. Used to remap caps lock to escape*
+	* apt install dconf-tools
