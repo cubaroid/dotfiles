@@ -4,6 +4,8 @@ Configuration files for git, vim, zsh and tmux.
 # Installation guide.
 *	Installed vim 
 	*	apt-get install vim-gtk
+	*	Install silver searcher: apt install siversearcher-ag
+	*	Install vundle.
 
 *	 Installed git.
 	*	apt-get install git-core
