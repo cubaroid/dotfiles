@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=Increase keyboard repeat rate
+Exec=xset r rate 250 60
+Type=Application
+Comment[en_US]=Use xset to set keyboard params
+Comment=Use xset to set keyboard params
