@@ -5,7 +5,7 @@ so ~/.vim/plugins.vim
 
 " Configuration
 syntax on
-set number
+set relativenumber
 set nowrap
 set tabstop=4
 set shiftwidth=4
@@ -14,6 +14,7 @@ set smartindent
 set hlsearch
 set incsearch
 set cursorline
+set smartcase
 set list
 set clipboard=unnamed
 set listchars=eol:¬,tab:>-,trail:~,extends:>,precedes:<
@@ -71,8 +72,8 @@ set grepprg=ag
 let g:grep_cmd_opts = '--line-numbers --noheading'
 
 " ultisnip
-let g:UltiSnipsExpandTrigger="<C-s>"
-let g:UltiSnipsJumpForwardTrigger="<C-s>"
+let g:UltiSnipsExpandTrigger="<C-j>"
+let g:UltiSnipsJumpForwardTrigger="<C-f>"
 let g:UltiSnipsJumpBackwardTrigger="<S-C-s>"
 let g:UltisnipsSnippetDirectories = ['~/.vim/UltiSnips', 'UltiSnips']
 
