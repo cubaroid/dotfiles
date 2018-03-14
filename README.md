@@ -54,3 +54,5 @@ Configuration files for git, vim, zsh and tmux.
 
 *	Install dconf-tools *Optional. Used to remap caps lock to escape*
 	* apt install dconf-tools
+
+*	Test link [Link](#dotfiles)
