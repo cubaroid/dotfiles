@@ -23,14 +23,11 @@ Plugin 'posva/vim-vue'
 Plugin 'cakebaker/scss-syntax.vim'
 Plugin 'rking/ag.vim'
 Plugin 'skwp/greplace.vim'
-" Plugin 'MarcWeber/vim-addon-mw-utils'
-" Plugin 'tomtom/tlib_vim'
-" Plugin 'garbas/vim-snipmate'
-" Plugin 'honza/vim-snippets'
 Plugin 'jiangmiao/auto-pairs'
 Plugin 'tpope/vim-surround'
 Plugin 'ervandew/supertab'
 Plugin 'sirver/ultisnips'
+Plugin 'lervag/vimtex'
 
 " PEND
 " All of your Plugins must be added before the following line

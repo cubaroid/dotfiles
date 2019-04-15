@@ -6,19 +6,19 @@ so ~/.vim/plugins.vim
 " Configuration
 syntax on
 set relativenumber
+set number
 set nowrap
 set tabstop=4
 set shiftwidth=4
 set softtabstop=4
 set smartindent
+set smartcase
 set hlsearch
 set incsearch
 set cursorline
-set smartcase
 set list
-set clipboard=unnamed
-set listchars=eol:¬,tab:>-,trail:~,extends:>,precedes:<
-" Automatically write when switching buffer
+set clipboard=unnamedplus
+set listchars=eol:¬,tab:>-,trail:~,extends:>,precedes:< " Automatically write when switching buffer
 set autowriteall
 
 " Turning off bell sounds
@@ -60,9 +60,12 @@ map <leader>light :colorscheme Tomorrow<CR>
 map <leader>dark :colorscheme Tomorrow-Night-Bright<CR>
 map <leader>wdift :windo diffthis<CR>
 map <leader>wdifo :windo diffoff<CR>
+map <leader>b# :b#<CR>
 
 
+noremap <leader>a :Ag! "<cword>"<CR>
 nnoremap <silent> <Esc> :nohlsearch<Bar>:echo<CR>
+nnoremap / /\v
 
 " Command T ignore list
 	let g:CommandTWildIgnore=&wildignore . ",*/node_modules"
