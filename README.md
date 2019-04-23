@@ -2,16 +2,15 @@
 Configuration files for git, vim, zsh and tmux.
 
 # Installation guide.
-*	Installed vim 
-	*	apt-get install vim-gtk
-	*	Install silver searcher: apt install siversearcher-ag
-	*	Install vundle.
-		*	[Link] ( https://github.com/VundleVim/Vundle.vim )
-
-
 *	 Installed git.
 	*	apt-get install git-core
 		*	install git flow: apt-get install git-flowt
+
+*	Installed vim 
+	*	apt-get install vim-gtk
+	*	Install silver searcher: apt install siversearcher-ag
+		*	[Link] ( https://github.com/VundleVim/Vundle.vim )
+
 
 *	Add mouse.desktop file to ~/.config/autostart/ folder
 	*	This sets the mouse sensitivity.
@@ -28,6 +27,14 @@ Configuration files for git, vim, zsh and tmux.
 		Also: configured the default shell for the current user:
 			x /etc/passwd -> set the user default shell to zsh instead of
 			bash.
+
+*	Environment configuration:
+	Clone this repo to ~/dotfiles
+
+	Copy files from the /homefiles directory:
+	* cp ~/dotfiles/homefiles/.zshrc ~/.zshrc
+	* cp ~/dotfiles/homefiles/.tmux.conf ~/.tmux.conf
+	* cp ~/dotfiles/homefiles/vimrc ~/.vim/vimrc
 
 *	Install keepass2
 	*	apt install -y keepass2
