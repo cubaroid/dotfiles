@@ -1,7 +1,7 @@
 set nocompatible              " be iMproved, required
 
 " Loading vundle and plugins
-so ~/.vim/plugins.vim
+so ~/dotfiles/.vim/plugins.vim
 
 " Configuration
 syntax on
@@ -64,7 +64,7 @@ map <leader>b# :b#<CR>
 
 
 noremap <leader>a :Ag! "<cword>"<CR>
-nnoremap <silent> <Esc> :nohlsearch<Bar>:echo<CR>
+nnoremap <silent> <leader><space> :nohlsearch<Bar>:echo<CR>
 nnoremap / /\v
 
 " Command T ignore list
