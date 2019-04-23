@@ -61,11 +61,10 @@ ZSH_THEME="robbyrussell"
 plugins=(
   git
   vi-mode
-  zsh-nvm
 )
 
 # Change this.
-#source ~/repo/dotfiles/zsh_plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+source ~/dotfiles/zsh_plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 source $ZSH/oh-my-zsh.sh
 
 # User configuration

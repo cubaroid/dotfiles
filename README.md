@@ -21,6 +21,9 @@ Configuration files for git, vim, zsh and tmux.
 *	Install zsh.
 	* apt install -y zsh
 
+*	Install xclip
+	* sudo pat-get install -y xclip
+
 *	Install [ ohmyzsh ]( https://github.com/robbyrussell/oh-my-zsh )
 		Also: configured the default shell for the current user:
 			x /etc/passwd -> set the user default shell to zsh instead of
